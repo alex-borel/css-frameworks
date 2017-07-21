@@ -13,9 +13,9 @@ body {
 }
 
 .main-header li a.menu {
+    color: #506a85;
     font-size: 15px;
     font-weight: 700;
-    color: #506a85;
 }
 
 .main-header ul {
@@ -37,45 +37,45 @@ body {
 }
 
 .center-block h1 {
-    font-family: 'Lato', 'Arial', sans-serif;
     color: #ffffff;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-size: 78px;
     font-weight: 900;
-    letter-spacing: 2px;
     line-height: 88px;
+    letter-spacing: 2px;
 }
 
 .center-block p {
     margin-top: 15px;
+    color: #a3b1bf;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
-    color: #a3b1bf;
 }
 
 .center-block button {
-    margin-left: 15px;
-    margin-top: 50px;
     width: 295px;
     height: 65px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: #ffffff;
     border-radius: 3px;
     background-color: #00bc9c;
-    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.45px;
 }
 
 .center-block button:hover {
-    background-color: #17a78b;
     color: #ffffff;
+    background-color: #17a78b;
 }
 
 .first-caption {
     top: 245px;
 }
 
-.second-caption p, .fourth-caption p {
+.fourth-caption p, .second-caption p {
     color: white;
 }
 
@@ -83,11 +83,11 @@ body {
     top: 200px;
 }
 
-.third-caption h1, .fourth-caption h1 {
+.fourth-caption h1, .third-caption h1 {
     background-color: #506a85;
 }
 
-.fourth-caption, .fifth-caption {
+.fifth-caption, .fourth-caption {
     top: 60px;
 }
 
@@ -124,10 +124,10 @@ body {
     top: 50%;
     width: 40px;
     height: 40px;
-    margin-left: 40px;
     margin-top: -20px;
-    background-color: none;
+    margin-left: 40px;
     background-image: none;
+    background-color: none;
 }
 
 .center-block .right {
@@ -149,28 +149,28 @@ body {
 
 .features h2 {
     margin-top: 126px;
+    color: #506a85;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 44px;
     font-weight: 700;
-    letter-spacing: 1.1px;
     line-height: 54px;
-    color: #506a85;
+    letter-spacing: 1.1px;
 }
 
 .features .reen {
     margin-top: 15px;
+    color: #73879c;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0.22px;
     line-height: 34px;
-    color: #73879c;
+    letter-spacing: 0.22px;
 }
 
 .features span {
     margin-top: 60px;
     margin-left: 20px;
-    font-size: 65px;
     color: #00bc9c;
+    font-size: 65px;
 }
 
 .features .icon-1 {
@@ -184,20 +184,20 @@ body {
 
 .features h3 {
     margin-top: 58px;
+    color: #506a85;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 34px;
-    color: #506a85;
 }
 
 .features .features-text {
     margin-top: 20px;
+    color: #73879c;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.16px;
     line-height: 25px;
-    color: #73879c;
+    letter-spacing: 0.16px;
 }
 
 .index-content {
@@ -208,22 +208,22 @@ body {
 
 .index-content h2 {
     margin-top: 120px;
+    color: #506a85;
     font-family: 'Lato', 'Arial', sans-serif;
-    letter-spacing: 0.8px;
     font-size: 44px;
     font-weight: 700;
-    letter-spacing: 1px;
     line-height: 54px;
-    color: #506a85;
+    letter-spacing: 0.8px;
+    letter-spacing: 1px;
 }
 
 .index-content p {
     margin-top: 15px;
+    color: #73879c;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0.22px;
     line-height: 34px;
-    color: #73879c;
+    letter-spacing: 0.22px;
 }
 
 .index-content .image {
@@ -239,21 +239,21 @@ body {
 
 .index-content h4 {
     margin-top: 28px;
+    color: #506a85;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0.7px;
-    color: #506a85;
 }
 
 .index-content span {
     margin-bottom: 30px;
+    color: #73879c;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.28px;
     line-height: 22px;
-    color: #73879c;
+    letter-spacing: 0.28px;
 }
 
 .index-content .slider {
@@ -270,11 +270,11 @@ body {
 }
 
 .hover {
+    visibility: hidden;
     position: absolute;
     left: 50%;
-    visibility: hidden;
-    transform: translate(-50%, -100%);
     opacity: 0.5;
+    transform: translate(-50%, -100%);
 }
 
 .image:hover .hover {
@@ -283,13 +283,13 @@ body {
 }
 
 .index-content .plus {
+    visibility: hidden;
     position: absolute;
     top: 35%;
     left: 50%;
-    visibility: hidden;
-    font-size: 15px;
-    opacity: 1;
     color: white;
+    opacity: 1;
+    font-size: 15px;
 }
 
 .slider .plus {
@@ -299,13 +299,13 @@ body {
 }
 
 .plus h4 {
-    font-size: 16px;
     color: white;
+    font-size: 16px;
 }
 
 .plus span {
-    font-size: 12px;
     color: white;
+    font-size: 12px;
 }
 
 .image:hover .plus {
@@ -319,38 +319,38 @@ body {
 
 .work h2 {
     margin-top: 118px;
+    color: #506a85;
     font-family: 'Lato', 'Arial', sans-serif;
-    letter-spacing: 1px;
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
-    color: #506a85;
+    letter-spacing: 1px;
 }
 
 .work p {
     margin-top: 15px;
+    color: #73879c;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0.22px;
     line-height: 34px;
-    color: #73879c;
+    letter-spacing: 0.22px;
 }
 
 .work button.get {
-    margin-top: 26px;
     width: 150px;
     height: 50px;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.45px;
+    margin-top: 26px;
     color: #ffffff;
     border-radius: 3px;
     background-color: #00bc9c;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.45px;
 }
 
 .work button.get:hover {
-    background-color: #17a78b;
     color: #ffffff;
+    background-color: #17a78b;
 }
 
 .main-footer {
@@ -369,18 +369,18 @@ body {
 
 .footer-up h4 {
     margin-top: 68px;
+    color: #ffffff;
     font-family: 'Lato', 'Arial', sans-serif;
-    letter-spacing: 1.5px;
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
-    color: #ffffff;
+    letter-spacing: 1.5px;
 }
 
 .footer-up .logo {
-    margin-top: 22px;
     width: 129px;
     height: 32px;
+    margin-top: 22px;
     background: url('../img/logo_wh.png');
 }
 
@@ -390,24 +390,24 @@ body {
 
 .footer-up p {
     margin-top: 19px;
+    color: #a3b1bf;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.28px;
     line-height: 22px;
-    color: #a3b1bf;
+    letter-spacing: 0.28px;
 }
 
 .footer-up .about {
+    color: #a3b1bf;
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: 0.3px;
     line-height: 22px;
-    color: #a3b1bf;
+    letter-spacing: 0.3px;
 }
 
 .footer-up .about:hover {
-    text-decoration: none;
     color: #00bc9c;
+    text-decoration: none;
 }
 
 .about span {
@@ -415,8 +415,8 @@ body {
 }
 
 .footer-up .photo {
-    margin-left: -15px;
     margin-top: 23px;
+    margin-left: -15px;
 }
 
 .photo div {
@@ -425,23 +425,23 @@ body {
 }
 
 .footer-up .plus {
+    visibility: hidden;
     position: absolute;
     top: 40%;
     left: 50%;
-    visibility: hidden;
-    font-size: 12px;
-    opacity: 1;
     color: white;
+    opacity: 1;
+    font-size: 12px;
 }
 
 .footer-up address {
     margin-top: 13px;
     margin-bottom: -20px;
+    color: #a3b1bf;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.28px;
     line-height: 22px;
-    color: #a3b1bf;
+    letter-spacing: 0.28px;
 }
 
 .footer-up .contacts {
@@ -449,8 +449,8 @@ body {
 }
 
 .footer-up .contacts:hover {
-    cursor: pointer;
     color: #02b699;
+    cursor: pointer;
 }
 
 .footer-up form {
@@ -458,13 +458,13 @@ body {
 }
 
 .footer-up input {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.28px;
-    line-height: 22px;
     color: #828e99;
     border-color: #4e5c6c;
     background-color: #4e5c6c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.28px;
 }
 
 .footer-up button {
@@ -473,12 +473,12 @@ body {
     left: 170px;
     width: 88px;
     height: 30px;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.39px;
     color: #ffffff;
     border-radius: 3px;
     background-color: #00bc9c;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.39px;
 }
 
 .footer-up button:hover {
@@ -487,11 +487,11 @@ body {
 }
 
 .footer-bottom p, a {
+    color: #707e8c;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.28px;
     line-height: 22px;
-    color: #707e8c;
+    letter-spacing: 0.28px;
 }
 
 .footer-bottom p {
@@ -510,6 +510,155 @@ body {
 }
 
 .footer-bottom a:hover {
-    text-decoration: none;
     color: #00bc9c;
+    text-decoration: none;
+}
+
+@viewport {
+    min-width: 500px;
+}
+
+@media screen and (max-width: 1640px) {
+    .center-block h1 {
+        font-size: 60px;
+        line-height: 72px;
+    }
+    .first-caption {
+        top: 45px;
+    }
+    .second-caption, .third-caption {
+        top: 30px;
+    }
+    .fifth-caption, .fourth-caption {
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .center-block h1 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .center-block p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .center-block button {
+        width: 210px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .features h2 {
+        margin-top: 60px;
+    }
+    .features span {
+        margin-left: 0;
+    }
+    .features .icon-1 {
+        margin-left: 0;
+    }
+    .features .icon-2 {
+        margin-left: 0;
+    }
+    .index-content {
+        min-height: 900px;
+        padding-bottom: 80px;
+    }
+    .index-content h2 {
+        margin-top: 60px;
+    }
+    .index-content p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .first-caption {
+        top: 0;
+    }
+    .second-caption, .third-caption {
+        top: -25px;
+    }
+    .center-block button {
+        margin-top: 30px;
+    }
+    .features span {
+        margin-left: -20px;
+    }
+    .features .icon-1 {
+        margin-left: -20px;
+    }
+
+
+
+    .work h2 {
+        margin-top: 60px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .footer-up input {
+        max-width: 270px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header img {
+        margin-top: 0;
+    }
+    .main-header nav {
+        background-color: #7FDDCD;
+    }
+    .features span {
+        margin-left: 0;
+    }
+    .features .icon-1 {
+        margin-left: 0;
+    }
+    .features h2 {
+        margin-top: 35px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .features .reen {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .features {
+        padding-bottom: 60px;
+    }
+    .index-content h2 {
+        margin-top: 35px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .index-content figure.image {
+        max-width: 570px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .index-content figcaption {
+        max-width: 570px;
+    }
+    .work h2 {
+        margin-top: 60px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .work p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .work {
+        min-height: 300px;
+        padding-bottom: 50px;
+    }
+    .main-footer h4 {
+        margin-top: 30px;
+    }
+    .footer-bottom ul {
+        float: left !important;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: -35px;
+    }
 }
